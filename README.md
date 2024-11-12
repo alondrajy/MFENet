@@ -4,4 +4,5 @@
 ![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/image/GoPro.png)
 ### On the HIDE dataset
 ![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/image/HIDE.png)
-
+### Visualization of the result of object detection on the deblurred image.
+![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/image/目标检测.png)
