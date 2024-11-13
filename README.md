@@ -3,10 +3,10 @@
 ### Multi-scale Frequency Enhancement for Effective Blind Image Deblurring
 ## 2 Model 
 ## 3 Dependencies
-### * Python
-### * Pytorch (2.1)
-### * scikit-image
-### * opencv-python
+  * Python
+  * Pytorch (2.1)
+  * scikit-image
+  * opencv-python
 
 ## 4 The results of the visual comparison of the proposed methods are as follows.
 ### On the GoPro dataset
