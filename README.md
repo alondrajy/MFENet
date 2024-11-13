@@ -1,7 +1,7 @@
 # Multi-scale Frequency Enhancement for Effective Blind Image Deblurring
 ## 1 This repository provides the official PyTorch implementation of the following paper:
 ### Multi-scale Frequency Enhancement for Effective Blind Image Deblurring
-![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/image/network.png)
+![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/network.png)
 ## 2 Dependencies
   * Python
   * Pytorch (2.1)
