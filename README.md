@@ -1,5 +1,9 @@
 # Multi-scale Frequency Enhancement for Effective Blind Image Deblurring
-## The results of the visual comparison of the proposed methods are as follows.
+## 1 This repository provides the official PyTorch implementation of the following paper:
+### Multi-scale Frequency Enhancement for Effective Blind Image Deblurring
+## 2 Model 
+
+## 3 The results of the visual comparison of the proposed methods are as follows.
 ### On the GoPro dataset
 ![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/image/GoPro.png)
 ### On the HIDE dataset
