@@ -18,11 +18,14 @@ pip install tqdm, scikit-image
 ```
 
 Dependencies
-```
-python 3.8.2
-pytorch 2.1.1
-cuda 15.1
-```
+- python 3.8.2
+- torch 1.10.0
+- numpy 1.21.4
+- pillow 8.4.0
+- torchvision 0.11.1
+- scikit-image 0.19.3
+- cuda 15.1
+
 
 ## 4. Dataset：<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>  
 **No.** |**Dataset** | **Year** | **Pub.** |**Size** |  **Types** | **Train/Val/Test**  | **Download**
