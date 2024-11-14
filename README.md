@@ -60,6 +60,17 @@ Run following commands to test and verify
 python main.py --model_name "MFENet" --mode "test" --data_dir "dataset/GOPRO" 
 ```
 
+PSNR and SSIM
+```python
+import cv2
+from skimage.metrics import peak_signal_noise_ratio, structural_similarity
+
+img1 = cv2.imread('img path1')
+img2 = cv2.imread('img path2')
+psnr = peak_signal_noise_ratio(img1, img2)
+ssim = structural_similarity(img1, img2, multichannel=True, gaussian_weights=True, use_sample_covariance=False)
+```
+
 
 ## Citation
 ```BibTeX
