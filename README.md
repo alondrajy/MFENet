@@ -76,6 +76,7 @@ ssim = structural_similarity(img1, img2, multichannel=True, gaussian_weights=Tru
 
 
 ## Citation
+If this repo help you, please cite us:
 ```BibTeX
 @article{xiang2024deep,
       title={Deep learning in motion deblurring: current status, benchmarks and future prospects},
