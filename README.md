@@ -8,7 +8,7 @@ The overall architecture of the proposed MFENet:
 ![image](https://github.com/alondrajy/MFENet-for-deblurring/blob/main/network.png)
 
 ## 3. Requirements
-The model is built in PyTorch 2.1.0 and tested on Ubuntu environment.
+The model is built in PyTorch 2.1.0 and tested on Ubuntu environment with NVIDIA GPU + CUDA CuDNN.
 
 For installing, follow these intructions
 ```
