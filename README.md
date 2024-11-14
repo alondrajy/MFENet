@@ -21,9 +21,9 @@ For installing, follow these intructions
 02 | [**HIDE**](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shen_Human-Aware_Motion_Deblurring_ICCV_2019_paper.pdf)   | 2019 | CVPR | 8422 | Synthetic | 6397/0/2025  | [link](https://github.com/joanshen0508/HA_deblur)
 ## 5 train
 ### Run following commands to train
-'''
+```
 python main.py --model_name "MFENet" --mode "train" --data_dir "dataset/GOPRO" 
-'''
+```
 ## 6 test
 ### Run following commands to train
 python main.py --model_name "MFENet" --mode "test" --data_dir "dataset/GOPRO" 
