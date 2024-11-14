@@ -24,7 +24,7 @@ Dependencies
 - pillow 9.5.0
 - torchvision 0.16.0
 - scikit-image 0.21.0
-- cuda 15.1
+- cuda 12.0
 
 
 ## 4. Dataset：<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>  
