@@ -8,13 +8,18 @@
 ### The model is built in PyTorch 2.1.0 and tested on Ubuntu environment.
 
 For installing, follow these intructions
+```
+conda create -n MFENet python==3.8
+conda activate MFENet
+pip install tqdm, scikit-image
+```
 ## Dependencies
 ```
-  * Python
-  * Pytorch (2.1)
-  * scikit-image
-  * opencv-python
-  * tqdm 4.66.2
+  Python
+  Pytorch (2.1)
+  scikit-image
+  opencv-python
+  tqdm 4.66.2
 ```
 ## Dataset：<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>  
 **No.** |**Dataset** | **Year** | **Pub.** |**Size** |  **Types** | **Train/Val/Test**  | **Download**
@@ -28,5 +33,6 @@ python main.py --model_name "MFENet" --mode "train" --data_dir "dataset/GOPRO"
 ```
 ## test
 ### Run following commands to train
+```
 python main.py --model_name "MFENet" --mode "test" --data_dir "dataset/GOPRO" 
-
+```
