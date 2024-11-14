@@ -59,3 +59,23 @@ Run following commands to test and verify
 ```
 python main.py --model_name "MFENet" --mode "test" --data_dir "dataset/GOPRO" 
 ```
+
+
+## Citation
+```BibTeX
+@article{xiang2024deep,
+      title={Deep learning in motion deblurring: current status, benchmarks and future prospects},
+      author={Xiang, Yawen and Zhou, Heng and Li, Chengyang and Sun, Fangwei and Li, Zhongbo and Xie, Yongqiang},
+      journal={The Visual Computer},
+      pages={1--27},
+      year={2024},
+      publisher={Springer}
+}
+
+@article{xiang2024mfenet,
+      title={Multi-scale Frequency Enhancement Network for Blind Image Deblurring}, 
+      author={Yawen Xiang and Heng Zhou and Chengyang Li and Zhongbo Li and Yongqiang Xie},
+      year={2024},
+      url={https://arxiv.org/abs/2411.06893}, 
+}
+```
