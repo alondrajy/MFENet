@@ -19,11 +19,9 @@ pip install tqdm, scikit-image
 
 Dependencies
 ```
-  Python
-  Pytorch (2.1)
-  scikit-image
-  opencv-python
-  tqdm 4.66.2
+python 3.6.9
+pytorch 2.1.1
+cuda 15.1
 ```
 
 ## 4. Dataset：<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>  
@@ -32,14 +30,31 @@ Dependencies
 01   | [**GoPro**](https://openaccess.thecvf.com/content_cvpr_2017/papers/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf)   | 2017 | CVPR | 3214 | Synthetic | 2103/0/1111  | [link](https://github.com/SeungjunNah/DeepDeblur-PyTorch)
 02 | [**HIDE**](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shen_Human-Aware_Motion_Deblurring_ICCV_2019_paper.pdf)   | 2019 | CVPR | 8422 | Synthetic | 6397/0/2025  | [link](https://github.com/joanshen0508/HA_deblur)
 
+After preparing data set, the ```GoPro``` data folder should be like the format below:
+```
+GOPRO
+├─ train
+│ ├─ blur    % 2103 image pairs
+│ │ ├─ xxxx.png
+│ │ ├─ ......
+│ │
+│ ├─ sharp
+│ │ ├─ xxxx.png
+│ │ ├─ ......
+│
+├─ test    % 1111 image pairs
+│ ├─ ...... (same as train)
+
+```
+
 ## 5. Getting Started
-### train
+### Training
 ```train.py``` contains the main training function code, and some parameters and dataset loactions need to be specified.
 ```
 python main.py --model_name "MFENet" --mode "train" --data_dir "dataset/GOPRO" 
 ```
 
-### test
+### Testing
 Run following commands to test and verify
 ```
 python main.py --model_name "MFENet" --mode "test" --data_dir "dataset/GOPRO" 
