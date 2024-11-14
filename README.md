@@ -19,7 +19,7 @@ pip install tqdm, scikit-image
 
 Dependencies
 ```
-python 3.6.9
+python 3.8.2
 pytorch 2.1.1
 cuda 15.1
 ```
