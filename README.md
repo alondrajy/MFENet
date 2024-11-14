@@ -53,13 +53,13 @@ GOPRO
 ## 5. Getting Started
 ### Training
 ```train.py``` contains the main training function code, and some parameters and dataset loactions need to be specified.
-```
+```python
 python main.py --model_name "MFENet" --mode "train" --data_dir "dataset/GOPRO" 
 ```
 
 ### Testing
 Run following commands to test and verify
-```
+```python
 python main.py --model_name "MFENet" --mode "test" --data_dir "dataset/GOPRO" 
 ```
 
