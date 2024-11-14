@@ -19,11 +19,11 @@ pip install tqdm, scikit-image
 
 Dependencies
 - python 3.8.2
-- torch 1.10.0
+- torch 2.1.0
 - numpy 1.21.4
-- pillow 8.4.0
-- torchvision 0.11.1
-- scikit-image 0.19.3
+- pillow 9.5.0
+- torchvision 0.16.0
+- scikit-image 0.21.0
 - cuda 15.1
 
 
