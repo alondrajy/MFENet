@@ -1,4 +1,4 @@
-# Multi-scale Frequency Enhancement for Effective Blind Image Deblurring
+# Multi-scale Frequency Enhancement Network for Blind Image Deblurring
 
 ## 1. Abstract
 >Image deblurring is a fundamental preprocessing technique aimed at recovering clear and detailed images from blurry inputs. However, existing methods often struggle to effectively integrate multi-scale feature extraction with frequency enhancement, limiting their ability to reconstruct fine textures, especially in the presence of non-uniform blur. To address these challenges, we propose a Multi-scale Frequency Enhancement Network (MFENet) for blind image deblurring. MFENet introduces a Multi-scale Feature Extraction Module (MS-FE) based on depthwise separable convolutions to capture rich multi-scale spatial and channel information. Furthermore, it employs a Frequency Enhanced Blur Perception Module (FEBP) that utilizes wavelet transforms to extract high-frequency details and multi-strip pooling to perceive non-uniform blur.
@@ -80,14 +80,6 @@ ssim = structural_similarity(img1, img2, multichannel=True, gaussian_weights=Tru
 ## Citation
 If this repo help you, please cite us:
 ```BibTeX
-@article{xiang2024deep,
-      title={Deep learning in motion deblurring: current status, benchmarks and future prospects},
-      author={Xiang, Yawen and Zhou, Heng and Li, Chengyang and Sun, Fangwei and Li, Zhongbo and Xie, Yongqiang},
-      journal={The Visual Computer},
-      pages={1--27},
-      year={2024},
-      publisher={Springer}
-}
 
 @article{xiang2024mfenet,
       title={Multi-scale Frequency Enhancement Network for Blind Image Deblurring}, 
