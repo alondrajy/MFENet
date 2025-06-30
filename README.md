@@ -78,13 +78,17 @@ ssim = structural_similarity(img1, img2, multichannel=True, gaussian_weights=Tru
 
 
 ## Citation
-If this repo help you, please cite us:
+If this [paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.70036) help you, please cite us:
 ```BibTeX
 
-@article{xiang2024mfenet,
-      title={Multi-scale Frequency Enhancement Network for Blind Image Deblurring}, 
-      author={Yawen Xiang and Heng Zhou and Chengyang Li and Zhongbo Li and Yongqiang Xie},
-      year={2024},
-      url={https://arxiv.org/abs/2411.06893}, 
+@article{xiang2025multi,
+  title={Multi-Scale Frequency Enhancement Network for Blind Image Deblurring},
+  author={Xiang, YaWen and Zhou, Heng and Zhang, Xi and Li, ChengYang and Li, ZhongBo and Xie, YongQiang},
+  journal={IET Image Processing},
+  volume={19},
+  number={1},
+  pages={e70036},
+  year={2025},
+  publisher={Wiley Online Library}
 }
 ```
